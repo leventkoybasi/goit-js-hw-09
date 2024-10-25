@@ -1,4 +1,38 @@
 /* Common styles */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('./reset.css');
 
-/* Sections style */
+/* Your custom styles */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+  /* margin-top: 24px; */
+  /* margin-bottom: 24px; */
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1128px;
+  row-gap: 20px;
+  column-gap: 24px;
+}
+.gallery-item {
+  list-style: none;
+  display: inline-block;
+}
+
+.gallery-image {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+}
+
+.gallery-item,
+.gallery-image {
+  cursor: url('../assets/curserImg/cursor.png'), auto !important;
+}
