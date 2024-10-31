@@ -1,6 +1,6 @@
 /* Common styles */
-@import "bootstrap/dist/css/bootstrap.min.css";
-@import url("./reset.css");
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('./reset.css');
 
 /* Your custom styles */
 body {
@@ -30,9 +30,4 @@ body {
   width: 100%;
   max-width: 360px;
   height: auto;
-}
-
-.gallery-item,
-.gallery-image {
-  cursor: url("../assets/curserImg/cursor.png"), auto !important;
 }
